@@ -1,6 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import  Container  from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container'
 
 function MainNavBar() {
     return (
@@ -9,13 +9,13 @@ function MainNavBar() {
                 <Container>
                     <Navbar.Brand href="#home">RevTracker</Navbar.Brand>
                     <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#pricing">Revenue</Nav.Link>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#pricing">Revenue</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
         </>
-    )
+    );
 }
 
 export default MainNavBar

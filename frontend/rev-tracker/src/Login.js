@@ -2,7 +2,6 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import './Main.css'
 function Login() {
     return (
         <div className="d-flex align-items-center justify-content-center">
